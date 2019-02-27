@@ -3,12 +3,12 @@
   "bundles": [
     "bundle-example-areas",
     "bundle-example-channels",
-    "bundle-example-classes",
-    "bundle-example-combat",
-    "bundle-example-commands",
+    "classes",
+    "combat",
+    "commands",
     "bundle-example-debug",
     "bundle-example-effects",
-    "bundle-example-input-events",
+    "input-events",
     "bundle-example-lib",
     "bundle-example-npc-behaviors",
     "bundle-example-player-events",
@@ -18,7 +18,7 @@
     "player-groups",
     "progressive-respawn",
     "telnet-networking",
-    "websocket-networking"
+    "websocket"
   ],
   "dataSources": {
     "YamlArea": {

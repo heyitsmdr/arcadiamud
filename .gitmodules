@@ -4,24 +4,12 @@
 [submodule "bundles/bundle-example-channels"]
 	path = bundles/bundle-example-channels
 	url = https://github.com/RanvierMUD/bundle-example-channels
-[submodule "bundles/bundle-example-classes"]
-	path = bundles/bundle-example-classes
-	url = https://github.com/RanvierMUD/bundle-example-classes
-[submodule "bundles/bundle-example-combat"]
-	path = bundles/bundle-example-combat
-	url = https://github.com/RanvierMUD/bundle-example-combat
-[submodule "bundles/bundle-example-commands"]
-	path = bundles/bundle-example-commands
-	url = https://github.com/RanvierMUD/bundle-example-commands
 [submodule "bundles/bundle-example-debug"]
 	path = bundles/bundle-example-debug
 	url = https://github.com/RanvierMUD/bundle-example-debug
 [submodule "bundles/bundle-example-effects"]
 	path = bundles/bundle-example-effects
 	url = https://github.com/RanvierMUD/bundle-example-effects
-[submodule "bundles/bundle-example-input-events"]
-	path = bundles/bundle-example-input-events
-	url = https://github.com/RanvierMUD/bundle-example-input-events
 [submodule "bundles/bundle-example-lib"]
 	path = bundles/bundle-example-lib
 	url = https://github.com/RanvierMUD/bundle-example-lib
@@ -49,6 +37,3 @@
 [submodule "bundles/telnet-networking"]
 	path = bundles/telnet-networking
 	url = https://github.com/RanvierMUD/telnet-networking
-[submodule "bundles/websocket-networking"]
-	path = bundles/websocket-networking
-	url = https://github.com/RanvierMUD/websocket-networking
