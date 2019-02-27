@@ -17,6 +17,14 @@ module.exports = {
       // This creates a super basic "echo" websocket server
       wss.on('connection', function connection(ws) {
 
+        // add an error handler
+        ws.on('error', (err) => {
+          // Ignore network errors like `ECONNRESET`, `EPIPE`, etc.
+          if (err.errno) return;
+          Logger.error(err);
+          throw err;
+        });
+
         // create our adapter
         const stream = new WebsocketStream();
         // and attach the raw websocket
