@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Arcadia</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="text-container"></div>
+            <div class="input-container">
+                <input type="text" />
+            </div>
+        </div>
+        <script type="module">
+            import Game from './js/Game.js';
+            window.Arcadia = new Game();
+            window.Arcadia.initializeManagers();
+            window.Arcadia.TextManager.addText('Welcome to Arcadia, where we fight virtual crime together!');
+        </script>
+    </body>
+</html>
